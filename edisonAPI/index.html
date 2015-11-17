@@ -2,17 +2,46 @@
 <html>
     <head>
 
-        <title>EdisonAPI</title>
+        <title>Haskell in Green Land</title>
 
 <xmp theme="united" style="display:none;">
 ## Analyzing the Energy Behavior of a Purely Functional Language
 
 
-### Data structures study
-  - Benchmarks: http://github.com/green-haskell/edison-benchmark
-  - Results: http://green-haskell.github.io/data-structures-results/
-  - Raw data:
-  - Complete list of Edison API:
+### Edison API
+
+  - Edison functions defined for Heaps and Sets
+
+    Constructors: empty, singleton, fromSeq, insert, insertSeq, union, unionSeq, unsafeInsertMin, unsafeInsertMax, unsafeFromOrdSeq, unsafeAppend
+
+    Destructors: minView, minElem, maxView, maxElem 
+
+    Deletions: delete, deleteAll, deleteSeq, deleteMin, deleteMax 
+
+    Observers: null, size, member, count, lookup, lookupM, lookupAll, lookupWithDefault, toSeq, toOrdSeq 
+
+    Filters and partitions: filterLT, filterLE, filterGT, filterGE, partitionLT_GE, partitionLE_GT, partitionLT_GT, filter, partition 
+
+    Folds:
+        <span style = "text-decoration: underline;">fold</span>
+        <span style = "text-decoration: underline;">foldOne</span>
+        <span style = "text-decoration: underline;">foldr</span>
+        <span style = "text-decoration: underline;">foldl</span>
+        <span style = "text-decoration: underline;">foldrOne</span>
+        <span style = "text-decoration: underline;">foldlOne</span>
+
+    foldPrime,
+    foldOne
+    foldr
+    foldl
+    foldrOne
+    foldlOne
+
+
+
+  - Edison functions which are specific to Sets:
+
+  - 
 
 </xmp>
 
