@@ -1,0 +1,11 @@
+,Energy,Units
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/addAll_1000_times_1000_elements_to_100000","1812.897","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/add_100000_elements_to_100000","57065.904","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/clear_100000_elements","1.629","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/containsAll_5000_times_for_1000_in_100000","2458.745","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/contains_9999999_1000_times","1.173e-3","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/iterator_100000_elements","0.624","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/removeAll_10_times_1000_elements_from_100000","18.347","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/remove_10000_times_from_100000","3539.078","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/retainAll_10_times_1000_elems_from_100000","5.478","j"
+"EnergyConsumption/Set/Data.Edison.Coll.UnbalancedSet/toList_5000_times_from_100000","3148.085","j"

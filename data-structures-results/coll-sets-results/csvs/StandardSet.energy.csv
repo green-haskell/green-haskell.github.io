@@ -1,0 +1,11 @@
+,Energy,Units
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/addAll_1000_times_1000_elements_to_100000","67.263","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/add_100000_elements_to_100000","3.154","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/clear_100000_elements","0.455","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/containsAll_5000_times_for_1000_in_100000","8.323","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/contains_9999999_1000_times","1.379e-2","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/iterator_100000_elements","0.252","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/removeAll_10_times_1000_elements_from_100000","0.752","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/remove_10000_times_from_100000","621.613","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/retainAll_10_times_1000_elems_from_100000","0.134","j"
+"EnergyConsumption/Set/Data.Edison.Coll.StandardSet/toList_5000_times_from_100000","1272.906","j"
