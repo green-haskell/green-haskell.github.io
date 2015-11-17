@@ -1,0 +1,11 @@
+,Time,Units
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/addAll_1000_times_1000_elements_to_100000","1.67","s"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/add_100000_elements_to_100000","72.95","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/clear_50000_elements","4.78","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/containsAll_5000_times_for_1000_in_100000","216.1","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/contains_9999999_1000_times","286.1","\956s"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/iterator_100000_elements","23.69","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/removeAll_10_times_1000_elements_from_100000","18.17","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/remove_2500_times_from_3125","120.3","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/retainAll_10_times_1000_elems_from_25000","1.783","ms"
+"Time/AssocCollection/Data.Edison.Assoc.StandardMap/toList_2500_times_from_3125","161.8","ms"
