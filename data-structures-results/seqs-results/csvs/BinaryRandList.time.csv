@@ -1,0 +1,11 @@
+,Time,Units
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/addAll_1000_times_1000_elements_to_100000","3.579","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/add_25000_elements_to_3125","509.7","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/clear_100000_elements","1.964","ms"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/containsAll_2500_times_for_1000_in_3125","214.0","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/contains_9999999_1000_times","3.222","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/iterator_100000_elements","6.776","ms"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/removeAll_10_times_1000_elements_from_100000","27.24","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/remove_10000_times_from_100000","13.72","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/retainAll_10_times_1000_elems_from_100000","30.96","s"
+"Time/Sequence/Data.Edison.Seq.BinaryRandList/toList_5000_times_from_100000","27.71","s"

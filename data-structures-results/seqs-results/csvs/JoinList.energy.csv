@@ -1,0 +1,11 @@
+,Energy,Units
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/addAll_1000_times_1000_elements_to_100000","117.065","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/add_25000_elements_to_3125","0.366","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/clear_100000_elements","0.154","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/containsAll_2500_times_for_1000_in_3125","11134.412","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/contains_9999999_1000_times","251.57","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/iterator_100000_elements","0.505","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/removeAll_10_times_1000_elements_from_100000","1398.354","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/remove_10000_times_from_100000","1172.02","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/retainAll_10_times_1000_elems_from_100000","1372.254","j"
+"EnergyConsumption/Sequence/Data.Edison.Seq.JoinList/toList_5000_times_from_100000","1671.975","j"
