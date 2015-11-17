@@ -1,0 +1,11 @@
+,Time,Units
+"Time/Heap/Data.Edison.Coll.SplayHeap/addAll_1000_times_1000_elements_to_100000","1.249","s"
+"Time/Heap/Data.Edison.Coll.SplayHeap/add_100000_elements_to_100000","220.2","ms"
+"Time/Heap/Data.Edison.Coll.SplayHeap/clear_100000_elements","9.229","ms"
+"Time/Heap/Data.Edison.Coll.SplayHeap/containsAll_5000_times_for_1000_in_100000","67.02","s"
+"Time/Heap/Data.Edison.Coll.SplayHeap/contains_9999999_1000_times","2.547","s"
+"Time/Heap/Data.Edison.Coll.SplayHeap/iterator_100000_elements","2.127","ms"
+"Time/Heap/Data.Edison.Coll.SplayHeap/removeAll_10_times_1000_elements_from_100000","24.37","ms"
+"Time/Heap/Data.Edison.Coll.SplayHeap/remove_10000_times_from_100000","11.31","s"
+"Time/Heap/Data.Edison.Coll.SplayHeap/retainAll_10_times_1000_elems_from_100000","23.78","s"
+"Time/Heap/Data.Edison.Coll.SplayHeap/toList_5000_times_from_100000","10.65","s"

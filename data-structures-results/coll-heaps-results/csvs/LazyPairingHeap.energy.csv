@@ -1,0 +1,11 @@
+,Energy,Units
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/addAll_1000_times_1000_elements_to_100000","37.043","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/add_100000_elements_to_100000","2.463","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/clear_100000_elements","0.11","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/containsAll_5000_times_for_1000_in_100000","1749.192","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/contains_9999999_1000_times","73.949","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/iterator_100000_elements","7.817e-2","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/removeAll_10_times_1000_elements_from_100000","0.782","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/remove_10000_times_from_100000","378.152","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/retainAll_10_times_1000_elems_from_100000","699.92","j"
+"EnergyConsumption/Heap/Data.Edison.Coll.LazyPairingHeap/toList_5000_times_from_100000","404.056","j"
