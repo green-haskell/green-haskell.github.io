@@ -10,38 +10,66 @@
 
 ### Edison API
 
+Below is a summary of the Edison API, for its various Abstractions. If you are interested in the full details head over to the hackage page, [here](http://hackage.haskell.org/package/EdisonAPI "Edison API.").
+
   - Edison functions defined for Heaps and Sets
 
-    Constructors: empty, singleton, fromSeq, insert, insertSeq, union, unionSeq, unsafeInsertMin, unsafeInsertMax, unsafeFromOrdSeq, unsafeAppend
+      * Constructors: empty, singleton, fromSeq, insert, insertSeq, union, unionSeq, unsafeInsertMin, unsafeInsertMax, unsafeFromOrdSeq, unsafeAppend
 
-    Destructors: minView, minElem, maxView, maxElem 
+      * Destructors: minView, minElem, maxView, maxElem 
 
-    Deletions: delete, deleteAll, deleteSeq, deleteMin, deleteMax 
+      * Deletions: delete, deleteAll, deleteSeq, deleteMin, deleteMax 
 
-    Observers: null, size, member, count, lookup, lookupM, lookupAll, lookupWithDefault, toSeq, toOrdSeq 
+      * Observers: null, size, member, count, lookup, lookupM, lookupAll, lookupWithDefault, toSeq, toOrdSeq 
 
-    Filters and partitions: filterLT, filterLE, filterGT, filterGE, partitionLT_GE, partitionLE_GT, partitionLT_GT, filter, partition 
+      * Filters and partitions: filterLT, filterLE, filterGT, filterGE, partitionLT_GE, partitionLE_GT, partitionLT_GT, filter, partition 
 
-    Folds:
-        <span style = "text-decoration: underline;">fold</span>
-        <span style = "text-decoration: underline;">foldOne</span>
-        <span style = "text-decoration: underline;">foldr</span>
-        <span style = "text-decoration: underline;">foldl</span>
-        <span style = "text-decoration: underline;">foldrOne</span>
-        <span style = "text-decoration: underline;">foldlOne</span>
-
-    foldPrime,
-    foldOne
-    foldr
-    foldl
-    foldrOne
-    foldlOne
-
+      * Folds: <span style = "text-decoration: underline;">fold</span> <span style = "text-decoration: underline;">fold1</span> <span style = "text-decoration: underline;">foldr</span> <span style = "text-decoration: underline;">foldl</span> <span style = "text-decoration: underline;">foldr1</span> <span style = "text-decoration: underline;">foldl1</span>
 
 
   - Edison functions which are specific to Sets:
 
-  - 
+      * Constructors: insertWith, insertSeqWith, unionl, unionr, unionWith, unionSeqWith, fromSeqWith 
+
+      * Set operations: intersection, difference, symmetricDifference, properSubset, subset, intersectionWith 
+
+
+  - Funtions defined for Associative Collections.
+
+      * Constructors: empty, singleton, insert, insertSeq, union, unionSeq, fromSeq, unsafeInsertMin, unsafeInsertMax, unsafeFromOrdSeq, unsafeAppend, insertWith, insertWithKey, insertSeqWith, insertSeqWithKey, unionl, unionr, unionWith, unionSeqWith, fromSeqWith, fromSeqWithKey, unionWithKey, unionSeqWithKey
+
+      * Destructors: minView, minElem, maxView, maxElem, minViewWithKey, minElemWithKey, maxViewWithKey, maxElemWithKey
+
+      * Deletions: delete, deleteAll, deleteSeq, deleteMin, deleteMax
+
+      * Observers: null, size, member, count, lookup, lookupM, lookupAll, lookupWithDefault, elements, toSeq, keys, toOrdSeq
+
+      * Modifiers: adjust, adjustAll
+
+      * Maps and folds: map, fold, fold1, foldr, foldl, foldr1, foldl1, mapWithKey, foldWithKey, foldrWithKey, foldlWithKey 
+
+      * Filters and partitions: filter, partition, filterLT, filterLE, filterGT, filterGE, partitionLT_GE, partitionLE_GT, partitionLT_GT, filterWithKey, partitionWithKey 
+
+      * Set-like operations: intersectionWith, difference, subset, intersectionWithKey
+
+
+  - Functions defined by the Sequence api:
+
+      * Constructors: singleton, empty, append, lcons, rcons, fromList, copy
+
+      * Destructors: lview, lhead, lheadM, ltail, ltailM, rview, rhead, rheadM, rtail, rtailM
+
+      * Observers: null, size, toList
+
+      * Concat and reverse: concat, reverse, reverseOnto
+
+      * Maps and folds: map, concatMap, <span style = "text-decoration: underline;">fold</span>, <span style = "text-decoration: underline;">fold1</span>, <span style = "text-decoration: underline;">foldr</span>, <span style = "text-decoration: underline;">foldl</span>, <span style = "text-decoration: underline;">foldr1</span>, <span style = "text-decoration: underline;">foldl1</span>, <span style = "text-decoration: underline;">reducer</span>, <span style = "text-decoration: underline;">reducel</span>, <span style = "text-decoration: underline;">reduce1</span>
+
+      * Subsequences: take, drop, splitAt, subseq, filter, partition, takeWhile, dropWhile, splitWhile
+
+      * Index-based operations: inBounds, lookup, lookupM, lookupWithDefault, update, adjust, mapWithIndex, <span style = "text-decoration: underline;">foldrWithIndex</span>, <span style = "text-decoration: underline;">foldlWithIndex</span>
+
+      * Zips and unzips: zip, zipThree, zipWith, zipWithThree, unzip, unzipThree, unzipWith, unzipWithThree
 
 </xmp>
 
